@@ -389,6 +389,6 @@ print (30* (imie + "\n"))
 W = input("Wysokość")
 P = input("Pole Podstawy")
 X = 1/2
-PO = X * W * P
+PO = X * float(W) * float(P)
 print (PO)
 """
