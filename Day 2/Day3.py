@@ -1,14 +1,17 @@
 from random import randint
-def losowe_zdanie(n=5):
 
-    wyrazy= ["ala","ma","kota","a","kot","ma","ale"]
+class lotto:
 
-    i = 0
-    zdanie = ""
+    def __init__(self):
+        self.wynik =set()
+        self.__losuj()
 
-    while i<n:
-        index_los=randint(0, len(wyrazy)-1)
-        zdanie += wyrazy[index_los]
-        i +=1
-    return zdanie
-print(losowe_zdanie(3))
+    def __losuj(self):
+        while(len(self.wynik)<6):
+            self.wynik.add(randint(1,49))
+
+    def pokaz(self):
+        return self.wynik
+
+los1 = lotto()
+print(los1.pokaz())
