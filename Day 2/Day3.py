@@ -15,3 +15,5 @@ class lotto:
 
 los1 = lotto()
 print(los1.pokaz())
+
+student1    =()

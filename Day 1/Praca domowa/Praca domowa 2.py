@@ -13,5 +13,6 @@ class DZIEKANAT:
 
     def __del__(self):
         return input()
+
 student1 = DZIEKANAT("123456", "Adam", "Nawałka")
 

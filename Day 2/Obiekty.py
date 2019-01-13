@@ -39,7 +39,6 @@ class Car:
 
 bbs = Felga("bbs", 18, 9)
 oz = Felga("oz", 20, 10)
-
 print (bbs)
 print(oz)
 
