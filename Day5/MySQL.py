@@ -136,8 +136,6 @@ class DBConnect:
         self.cursor.execute("select * from `pracownicy`")
         pracownicy = self.cursor.fetchall()
 
-        i = 0
-
         for row in pracownicy:
             Name           = 1
             Surname        = 2
